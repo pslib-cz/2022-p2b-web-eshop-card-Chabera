@@ -1,0 +1,119 @@
+html {
+    font-family: 'Gotham Book', sans-serif;
+}
+
+body {
+    display: flex;
+}
+
+:root {
+    --bg-1: #f4F4F4; 
+    --bg-2: #26c70f;
+    --text-1: #98006e;
+    --text-2: #7777;
+}
+
+.main {
+    background-color: white;
+    max-width: 390px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.infobox {
+    background-color: white;
+    max-width: 350px;
+    margin-bottom: 0;
+}
+
+.infobox__picture {
+    display: flex;
+    justify-content: center;
+}
+
+.infobox__tittle {
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 16px;
+    margin-bottom: 0px;
+}
+
+.infobox__caption {
+    margin-bottom: 0;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Gotham Book', Arial;
+}
+
+.text-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1.3rem;
+    margin-right: 1.3rem;
+    height: 2rem;
+    margin-top: 1rem;
+}
+
+.text-right {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1.3rem;
+    margin-right: 1.3rem;
+    height: 2rem;
+}
+
+.text-1 {
+    margin: 0;
+    font-size: 14.4px;
+    color: var(--bg-2);
+}
+
+.text-2 {
+    margin: 0;
+    font-size: 22.4px;
+    color: var(--text-1);
+    font-weight: bold;
+}
+
+.text-3 {
+    margin: 0;
+    font-size: 14.4px;
+}
+
+.text-4 {
+    margin: 0;
+    font-size: 12.8px;
+}
+
+footer {
+    background-color: var(--bg-1);
+    padding: 23px;
+    margin: 5px 20px;
+    border-radius: 15px;
+}
+
+.icon{
+    height: 23px;
+    width: 66px;
+    display: flex;
+}
+
+.heart-icon {
+    height: 23px;
+    width: 23px;
+    margin-right: 20px;
+}
+
+.balance-icon {
+    height: 23px;
+    width: 23px;
+}
+
+
+
+
